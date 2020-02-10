@@ -3935,6 +3935,11 @@ jest@24.1.0:
     import-local "^2.0.0"
     jest-cli "^24.1.0"
 
+jetifier@^1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/jetifier/-/jetifier-1.6.5.tgz#ea87324a4230bef20a9651178ecab978ee54a8cb"
+  integrity sha512-T7yzBSu9PR+DqjYt+I0KVO1XTb1QhAfHnXV5Nd3xpbXM6Xg4e3vP60Q4qkNU8Fh6PHC2PivPUNN3rY7G2MxcDQ==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -4716,10 +4721,10 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-moment@2.13.0:
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.13.0.tgz#24162d99521e6d40f99ae6939e806d2139eaac52"
-  integrity sha1-JBYtmVIebUD5muaTnoBtITnqrFI=
+moment@2.19.3:
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.3.tgz#bdb99d270d6d7fda78cc0fbace855e27fe7da69f"
+  integrity sha1-vbmdJw1tf9p4zA+6zoVeJ/59pp8=
 
 morgan@^1.9.0:
   version "1.9.1"
@@ -5609,7 +5614,16 @@ react-native-easy-grid@0.2.1:
   dependencies:
     lodash "4.17.11"
 
-react-native-gesture-handler@^1.0.15, react-native-gesture-handler@~1.0.14:
+react-native-gesture-handler@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.0.5.tgz#9f43d912a9b5e75474c5c1e27b7c8929039c5123"
+  integrity sha512-HGG9CinmsPrck7UXb//WHKra8/AFdXQyFfUpvmrFrhQqf1BCU6mVyMypOifYNu3zJUr+UNNzSsk9ZdAo9Ncrmg==
+  dependencies:
+    hoist-non-react-statics "^2.3.1"
+    invariant "^2.2.2"
+    prop-types "^15.5.10"
+
+react-native-gesture-handler@~1.0.14:
   version "1.0.16"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.0.16.tgz#bee54981575e581857c2298e133ce2ffac240a3e"
   integrity sha512-KhUjDaiGKESfVa/lywuYfdZ2pomPC4q/dRQo18qlSZuRxEiOCxzSo9Q1TV7JK3PpyyMEXpsU04kYSSVypWiSxg==
@@ -5668,10 +5682,10 @@ react-native-vector-icons@^6.3.0:
     prop-types "^15.6.2"
     yargs "^8.0.2"
 
-react-native@0.58.5:
-  version "0.58.5"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.58.5.tgz#672709bafd845e35ab4dd32b8ccccae32d54d552"
-  integrity sha512-wCWjUAtvRK7A1YxnCANAW8/3+x3gh2WUifYqdvKSAJ6wGsftLgvj1JxIaUMQ3mKi0aUeAlHnz0cO21ZPCLgd+g==
+react-native@0.58.6:
+  version "0.58.6"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.58.6.tgz#a6d273cd2f51b0e3b141dad5f19622e0000497b3"
+  integrity sha512-m/7L0gYXS4yHjs+PKmyurh1LLr7/tpobAX8Iv7Dwu4XT1ZcZFeCATn420E9U3nC2XsT54AmRR2Fv7VGgf+M2vQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     absolute-path "^0.0.0"
